@@ -1,5 +1,7 @@
 extern crate glium;
 
+use glium::Surface;
+
 fn main() {
     use glium::DisplayBuild;
 
@@ -20,8 +22,11 @@ fn main() {
             }
         };
 
-        display.draw()
+        let mut frame = display.draw();
+
+        frame.clear_color(0.0, 0.0, 0.0, 1.0); // clear the display
             // insert shader here
-               .finish();
+        frame.finish()
+             .expect("Could not draw frame!");
     }
 }
