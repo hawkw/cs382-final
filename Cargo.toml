@@ -1,6 +1,9 @@
 [package]
 name = "cs382_final"
 version = "0.1.0"
-authors = ["Hawk Weisman <hi@hawkweisman.me>"]
+authors = [ "Hawk Weisman <hi@hawkweisman.me>"
+          , "KJ Sweet <sweetk@allegheny.edu>"
+          ]
 
 [dependencies]
+glium = "*"
