@@ -38,14 +38,14 @@ fn main() {
         out vec4 color;
 
         void main() {
-            color = vec4(1.0, 1.0, 0.0, 1.0);
+            color = vec4(1.0, 1.0, 1.0, 1.0);
         }
     "#;
 
     // Our shape. It's just a big triangle
-    let shape = vec![ Vertex { position: [-0.5,  0.5 ]  }
-                    , Vertex { position: [ 0.0,  0.5 ] }
-                    , Vertex { position: [ 0.5,  0.25] }
+    let shape = vec![ Vertex { position: [-0.1, -0.1 ] }
+                    , Vertex { position: [ 0.0,  0.0 ] }
+                    , Vertex { position: [ 0.1, -0.1 ] }
                     // , Vertex { position: (0.0, 0.0) }
                     ];
 
