@@ -1,0 +1,6 @@
+[package]
+name = "cs382_final"
+version = "0.1.0"
+authors = ["Hawk Weisman <hi@hawkweisman.me>"]
+
+[dependencies]
