@@ -9,3 +9,7 @@ For our final project, we are experimenting with OpenGL shaders and writing some
 ### Our Progress
 
 Thus far we have spent a great deal of our time learning more about graphics programming in OpenGL. We've been reading through the introductory chapters of _The OpenGL SuperBible_ and studying OpenGL syntax. We've also been looking at shaders on [shadertoy.com](https://www.shadertoy.com), a website which uses WebGL to run OpenGL shader demos in the browser, and reading over & trying to understand some of their source code.
+
+Furthermore, we've started working on writing programs for our project. We've configured a basic project using `cargo`, Rust's build tool, and added `glium` as a dependency. Our project goes through the basic steps of creating a `glium` window, and compiles some very simple shaders to create a simple animation of a spinning triangle. Now that most of the "plumbing" is out of the way, we can start writing some fancier shaders.
+
+Our code doesn't currently work on Alden lab computers, since the Rust compiler requires root access to install. However, I'm working on configuring Travis CI to continually build our code, so there will always be an Ubuntu binary available to download and run.
