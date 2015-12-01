@@ -13,3 +13,7 @@ Thus far we have spent a great deal of our time learning more about graphics pro
 Furthermore, we've started working on writing programs for our project. We've configured a basic project using `cargo`, Rust's build tool, and added `glium` as a dependency. Our project goes through the basic steps of creating a `glium` window, and compiles some very simple shaders to create a simple animation of a spinning triangle. Now that most of the "plumbing" is out of the way, we can start writing some fancier shaders.
 
 Our code doesn't currently work on Alden lab computers, since the Rust compiler requires root access to install. However, I'm working on configuring Travis CI to continually build our code, so there will always be an Ubuntu binary available to download and run.
+
+### Goals
+
+We plan to spend the remainder of the time working on writing some visually impressive shaders. We'd love to play around with programmatically-generated terrain shaders, but that seems like a lofty goal. We will definitely put together some neat demos to show as part of our presentation, though.
