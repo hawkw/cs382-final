@@ -1,0 +1,37 @@
+\documentclass{beamer}
+% \usepackage{listings}
+\usepackage{color}
+\usepackage{lmodern}
+%% -- Referencing -------------------------------------------------------
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage[ backend=bibtex
+           , style = numeric
+           , sortcites = true
+           , url = false
+           , doi = false
+           , sorting = nty
+           , backref = false
+           , natbib
+           , hyperref
+           ]{biblatex}
+% \bibliography{../bibliography/thesis.bib}
+\renewcommand*{\bibfont}{\scriptsize}
+\usepackage{lmodern}
+\usepackage{minted}
+\setminted{ fontfamily = lmtt
+          , style = solarizeddark
+          , mathescape = true
+          }
+\usepackage{fancyvrb}
+
+\usecolortheme[dark]{solarized}
+
+\title[OpenGL]{OpenGL and the Graphics Pipeline}
+\subtitle{CMPSC382 Final Project}
+\author[Hawk Weisman and KJ Sweet]{Hawk Weisman and KJ Sweet}
+\institute[Allegheny College]{Department of Computer Science \\ Allegheny College}
+\date{\today}
+\begin{document}
+\maketitle
+\end{document}
